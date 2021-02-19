@@ -1,16 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "module": "ESNext",
-    "target": "ES6",
-    "lib": [
-      "ES6",
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "target": "ES2017",
+    "lib": ["ES6", "DOM", "DOM.Iterable", "ESNext"],
     "jsx": "preserve",
-    "rootDir": ".",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -21,13 +15,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    ".next"
-  ]
+  "include": ["next-env.d.ts", "next.config.js", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
