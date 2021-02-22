@@ -1,0 +1,12 @@
+{
+  "presets": ["next/babel", "@babel/preset-react"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"]
+      }
+    ],
+    ["babel-plugin-styled-components"]
+  ]
+}
